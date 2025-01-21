@@ -1,0 +1,26 @@
+.navbarRight>:nth-child(1){
+    color: black;
+}
+
+
+.heroSection{
+    height: 78vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.heroSectionLeftImg{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.heroSectionRight{
+    width: 40vw;
+    color: blueviolet;
+}
+
+.heroSectionRightHeading{
+    margin-bottom: 10px;
+}

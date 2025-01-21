@@ -1,0 +1,128 @@
+.heroSectionMainContentArea{
+    margin: 20px;
+    width: 70%;
+    height: 100%;
+
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.heroSectionMainContentAreaCard{
+    margin: 20px;
+    width: 20vw;
+    height: 34vh;
+
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+}
+
+.navbarRight>:nth-child(3){
+    color: black;
+}
+
+.heroSectionSidebar{
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+.heroSectionSidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+}
+
+.heroSectionSidebarTop{
+    width: 90%;
+    height: 30%;
+}
+
+.heroSectionSidebarMiddle{
+    width: 90%;
+    height: 30%;
+}
+
+.heroSectionSidebarBottom{
+    width: 90%;
+    height: 30%;
+}
+
+.heroSectionSidebarTopHeading{
+    color: blueviolet;
+    padding-left: 20px;
+}
+
+.heroSectionSidebarTopContent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.heroSectionSidebarTopContentList{
+    color: white;
+    list-style-type: none;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.heroSectionSidebarMiddleContentButton{
+    padding: 5px 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.heroSectionSidebarMiddleContentPara{
+    text-align: center;
+    color: blueviolet;
+}
+
+.heroSectionSidebarMiddleContent{
+    padding: 10px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.heroSectionSidebarMiddleHeading{
+    color: blueviolet;
+    margin-left: 10px;
+}
+
+.heroSectionSidebarBottomContent{
+     height: 80%;
+     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: blueviolet;
+}
+
+.heroSectionSidebarBottomHeading{
+    color: blueviolet;
+    padding-left: 10px;  
+}
+
+.heroSectionSidebarBottomContentHeading{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.heroSectionSidebarBottomContentRole{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
