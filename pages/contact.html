@@ -9,38 +9,68 @@
 </head>
 <body>
     <!-- navbar -->
-     <nav class="navabr">
-        <div class="navbarLeft">
-           <img class="navbarLeftImg" src="../assets/yesiamjc.jpg" alt="Joy Chakraborty Image">
-           <h2 class="navbarLeftName">Joy Chakraborty</h2>
-        </div>
-        <div class="navbarRight">
-          <a class="navbarRightListLink" href="../index.html"><li class="navbarRightList">Home</li></a>
-          <a class="navbarRightListLink" href="about.html"><li class="navbarRightList">About</li></a>
-          <a class="navbarRightListLink" href="portfolio.html"><li class="navbarRightList">Portfolio</li></a>
-          <a class="navbarRightListLink" href="contact.html"><li class="navbarRightList">Contact</li></a>
-        </div>
-     </nav>
+    <nav class="navabr">
+      <div class="navbarLeft">
+        <img
+          class="navbarLeftImg"
+          src="../assets/yesiamjc.jpg"
+          alt="Joy Chakraborty Image"
+        />
+        <h2 class="navbarLeftName">Joy Chakraborty</h2>
+      </div>
+      <div class="navbarRight">
+        <a class="navbarRightListLink" href="../index.html"
+          ><li class="navbarRightList">Home</li></a
+        >
+        <a class="navbarRightListLink" href="about.html"
+          ><li class="navbarRightList">About</li></a
+        >
+        <a class="navbarRightListLink" href="portfolio.html"
+          ><li class="navbarRightList">Portfolio</li></a
+        >
+        <a class="navbarRightListLink" href="contact.html"
+          ><li class="navbarRightList">Contact</li></a
+        >
+      </div>
+      <button class="hamburgerBtn">☰</button>
+    </nav>
+
+    <div class="hamburgerMenu">
+      <button class="closeBtn">✖</button>
+      <a class="navbarRightListLink" href="../index.html"
+        ><li class="navbarRightList">Home</li></a
+      >
+      <a class="navbarRightListLink" href="about.html"
+        ><li class="navbarRightList">About</li></a
+      >
+      <a class="navbarRightListLink" href="portfolio.html"
+        ><li class="navbarRightList">Portfolio</li></a
+      >
+      <a class="navbarRightListLink" href="contact.html"
+        ><li class="navbarRightList">Contact</li></a
+      >
+    </div>
 
      <!-- hero -->
 
      <div class="heroSection">
-      <div class="heroSectionLeft">
-        <img class="heroSectionLeftImg" src="../assets/yesiamjc.jpg" alt="Joy Chakraborty">
-      </div>
-      <div class="heroSectionRight">
-        <h2 class="heroSectionRightHeading">👋 Hi, I'm Joy Chakraborty</h2>
-        <p class="heroSectionRightPara">
-          I am a fresher System Engineer at TCS, always ready to have new experiences, meet new people and learn new things. I find the idea of creating value for people and impacting the world through my work gratifying.
-        </p>
-      </div>
+      <form action="" class="heroSectionForm">
+        <h2 class="heroSectionFormHeading">Contact Form</h2>
+        <label class="inputLabel">Name: </label>
+        <input type="text" class="inputHero" placeholder="Enter your name">
+        <label class="inputLabel">Email: </label>
+        <input type="email" class="inputHero" placeholder="Enter your email">
+        <label class="inputLabel">Subject: </label>
+        <input type="text" class="inputHero" placeholder="Enter your contact subject">
+        <button class="inputButton">Send</button>
+      </form>
      </div>
 
      <!-- footer -->
      <footer class="footer">
       <div class="footerLeft">
         <h4 class="footerLeftHeading">Contact Information</h4>
-        <p class="footerLeftPara">AECS Layout, Marathahalli, <br>Bengaluru, Karnataka 560037 <br> <br>Phone: +91 86174 69887
+        <p class="footerLeftPara">AECS Layout, Marath Halli, <br>Bengaluru, Karnataka 560037 <br> <br>Phone: +91 86174 69887
         </p>
       </div>
       <div class="footerMiddle">
@@ -53,6 +83,6 @@
         <button class="footerRightBtn">^ Back To Top</button>
       </div>
     </footer>
-      <script src="index.js"></script>
+      <script src="../index.js"></script>
 </body>
 </html>

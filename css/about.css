@@ -1,3 +1,28 @@
 .navbarRight>:nth-child(2){
     color: black;
 }
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heroSectionBottomPara{
+    width: 70vw;
+    color: blueviolet;
+}
+
+@media screen and (max-width:767px){
+    .heroSection{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:576px){
+    .heroSection{
+        height: 120vh;
+    }
+}

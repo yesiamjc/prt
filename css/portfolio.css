@@ -17,6 +17,26 @@
     border-radius: 15px;
 }
 
+.heroSectionMainContentAreaCardTop{
+    width: 100%;
+    height: 70%;
+}
+
+.heroSectionMainContentAreaCardTopImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.heroSectionMainContentAreaCardBottom{
+    padding: 10px;
+    color: blueviolet;
+}
+
+.heroSectionMainContentAreaCardBottomTitle{
+    margin-bottom: 5px;
+}
+
 .navbarRight>:nth-child(3){
     color: black;
 }
@@ -126,3 +146,51 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width:1250px){
+    .heroSection{
+     height: 120vh;
+    }
+
+
+.heroSectionMainContentArea{
+    width: 65%;
+}
+
+.heroSectionSidebar{
+    width: 35%;
+}
+
+.heroSectionMainContentArea{
+    grid-template-columns: auto auto;
+}
+}
+
+@media screen and (max-width:1010px){
+.heroSectionMainContentAreaCard{
+    width: 23vw;
+}
+}
+
+@media screen and (max-width:880px){
+  .heroSection{
+  flex-direction: column;
+  align-items: center;
+  height: 350vh;
+  }
+
+  .heroSectionSidebar{
+    width: 80%;
+    height: 100vh;
+  }
+
+  .heroSectionMainContentArea {
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.heroSectionMainContentAreaCard{
+    width: 60vw;
+}
+ }

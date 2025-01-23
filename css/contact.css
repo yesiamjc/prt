@@ -1,3 +1,61 @@
 .navbarRight>:nth-child(4){
     color: black;
 }
+
+.heroSection{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroSectionForm{
+    width: 60vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel{
+    color: blueviolet;
+}
+
+.inputHero{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+.inputHero:focus{
+    outline: none;
+}
+
+.inputHero::placeholder{
+    color: blueviolet;
+}
+
+.inputButton{
+    padding: 5px 10px;
+    width: 150px;
+    align-self: end;
+    background-color: blueviolet;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.heroSectionFormHeading{
+    align-self: center;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:767px){
+    .heroSection{
+        
+        height: 50vh;
+    }
+}
