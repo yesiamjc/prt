@@ -1,3 +1,5 @@
+// Scroll FunctionLITY
+
 document.addEventListener('DOMContentLoaded', function() {
     const footerRightBtn = document.querySelector('.footerRightBtn');
     
@@ -8,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// hamburger feature 
 document.addEventListener('DOMContentLoaded', function() {
     const hamburgerBtn = document.querySelector('.hamburgerBtn');
     const hamburgerMenu = document.querySelector('.hamburgerMenu');
