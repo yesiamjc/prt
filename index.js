@@ -10,7 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// hamburger feature 
+// hamburger
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const hamburgerBtn = document.querySelector('.hamburgerBtn');
     const hamburgerMenu = document.querySelector('.hamburgerMenu');
