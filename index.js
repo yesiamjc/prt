@@ -1,4 +1,4 @@
-// Scroll FunctionLITY
+// Scroll
 
 document.addEventListener('DOMContentLoaded', function() {
     const footerRightBtn = document.querySelector('.footerRightBtn');
