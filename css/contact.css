@@ -1,5 +1,6 @@
 .navbarRight>:nth-child(4){
     color: black;
+    font-weight: bold;
 }
 
 .heroSection{
@@ -12,6 +13,10 @@
 .heroSectionForm{
     width: 60vw;
     height: 40vh;
+    margin-top: 80px;
+    padding: 1.25rem;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
 
     display: flex;
     flex-direction: column;

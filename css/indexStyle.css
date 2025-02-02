@@ -1,5 +1,6 @@
 .navbarRight>:nth-child(1){
     color: black;
+    font-weight: bold;
 }
 
 
@@ -19,6 +20,10 @@ align-items: center;
 .heroSectionRight{
     width: 40vw;
     color: blueviolet;
+}
+
+.heroSectionRightPara{
+    text-align: justify;
 }
 
 .heroSectionRightHeading{
